@@ -1,0 +1,45 @@
+
+
+#locationDescription{
+    position: relative;
+    top: 60px;
+}
+
+
+#googleMap{
+    margin-top: 13%;
+    height: 50vh;
+    width: 100vw;
+}
+
+#bio {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    margin-bottom: 10%;
+}
+
+#person {
+    margin-top: 15vh;
+    height: 35vh;
+    width: 20vw;
+    display: inline-block;
+
+}
+
+#person p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* Image class styling */
+
+.profileSize {
+    height: 128px;
+    width: 128px;
+}
+
+.roundImage {
+    border-radius: 50%;
+}

@@ -1,0 +1,222 @@
+
+/* Parent CSS */
+
+* {
+padding: 0;
+margin: 0;
+
+}
+
+body {
+  
+    max-width: 100vw;
+}
+
+#scrollTop {
+    
+    position: fixed;
+    right: 2.5%;
+    bottom: 2.5%;
+    z-index: 10;
+}
+#scrollTop img {
+    height: 50px;
+    width: 50px;
+}
+
+.iconSize {
+    height: 64px;
+    width:64px;
+}
+
+/******************************/
+/* Classes to use for styling */
+/******************************/
+
+.largeText {
+    font-size: 40px;
+}
+
+.mediumText {
+    font-size: 30px;
+}
+
+.midSmallText {
+    font-size: 25px;
+}
+
+.smallText {
+    font-size: 20px;
+}
+
+
+.extraSmallText {
+    font-size: 13px;
+    line-height: 2em;
+}
+
+.whiteText {
+    color: #fff;
+}
+
+.darkText {
+   color: #636363; 
+}
+
+.darkerText {
+    color: #484848;
+}
+
+
+
+.orangeText {
+    color: orange;
+    /*text-shadow: 2px 2px #999999;*/
+}
+
+/* Extra Fonts */
+
+
+/* Fonts */
+
+.coolFont {
+    font-family: 'Bungee Inline', cursive;
+}
+
+.greatFont {
+    font-family: 'Alegreya Sans SC', bold;
+}
+    
+   
+ul {
+    
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+
+li {
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+section {
+    
+    height: 100vh;
+    width: auto;
+}
+
+
+
+#background img {
+   height: 100vh;
+   width: 100vw;
+
+}
+
+
+#m_title {
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    font-size: 95px;
+    color: orange;
+    font-family: 'Anton', sans-serif;
+}
+
+#subTitle {
+    position: absolute;
+    top: 53vh;
+    left: 23vw;
+}
+
+#mid-sectionMenu {
+   
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -25vh;
+    width: 50vw;
+    height: auto;
+    background-color: #EEE0CB;
+    background-image: url("images/grainTexture.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    box-shadow: 0 4px 2px -2px #d9d9d9;
+}
+
+#mid-sectionMenu ul {
+    margin-bottom: 10vh;
+}
+
+#mid-sectionMenu ul li a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #484848;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 25px;
+    
+}
+#mid-sectionMenu ul li a:hover {
+   
+    color: #fff;
+}
+
+
+#inMenu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#first_section {
+    font-family: 'Bungee Inline', cursive;
+  
+}
+
+/* Sections */
+
+#second_section {
+    height: auto;
+    background-color: #A93500;
+}
+
+#third_section {
+    background-color: #53240E;
+}
+
+#fourth_section {
+    background-color: #fff;
+    height: auto;
+}
+
+#fifth_section {
+    background-color: #fff;
+}
+
+#sixth_section {
+    
+     border: 1px solid #d9d9d9;
+     height: auto;
+     
+}
+
+/* SECTION HEADERS */
+#section_header {
+    background-color: orange;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#content-box h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    height: 50vh;
+    background-color: #fff;
+}
+
